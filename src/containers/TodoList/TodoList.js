@@ -43,7 +43,6 @@ class TodoList extends Component {
                 <div className='todos'>{todos}</div>
                 {todoDetail}
                 <NavLink to='/new-todo' exact>New Todo</NavLink>
-                <NewTodo></NewTodo>
             </div>
         );
     }
